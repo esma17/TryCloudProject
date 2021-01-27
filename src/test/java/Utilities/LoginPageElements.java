@@ -1,12 +1,8 @@
 package Utilities;
 
-public class Credentials {
-    //username and passwords
-    public static final String user23="User23";
-    public static final String user53=" User53";
-    public static final String user83= "User83";
-    public static final String user113="User113";
-    public static final String password="Userpass123";
+public class LoginPageElements {
+    //username and passwords are in configuration.properties
+
 
     //Data about login page
     //by xpath

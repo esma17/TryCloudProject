@@ -12,6 +12,6 @@ public class Test1 extends TestBase {
     public void t1(){
         LogIn log=LogIn.getLog();
        Driver.navigate("http://app.trycloud.net/index.php/login");
-        log.user113();
+        log.user53();
     }
 }

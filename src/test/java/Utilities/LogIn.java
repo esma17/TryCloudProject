@@ -1,12 +1,9 @@
 package Utilities;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
-
-import javax.xml.xpath.XPath;
 
 public class LogIn extends Driver {
     private static LogIn log;
@@ -43,30 +40,30 @@ public class LogIn extends Driver {
 
     public  void loginUser23() {
         loginBox.clear();
-        loginBox.sendKeys(Credentials.user23);
-        passwordBox.sendKeys(Credentials.password);
+        loginBox.sendKeys(ConfigurationReader.configurationReader("user23"));
+        passwordBox.sendKeys(ConfigurationReader.configurationReader("password"));
         loginBtn.click();
 
     }
 
     public  void user53() {
         loginBox.clear();
-        loginBox.sendKeys(Credentials.user53);
-        passwordBox.sendKeys(Credentials.password);
+        loginBox.sendKeys(ConfigurationReader.configurationReader("user53"));
+        passwordBox.sendKeys(ConfigurationReader.configurationReader("password"));
         loginBtn.click();
     }
 
     public  void user83() {
         loginBox.clear();
-        loginBox.sendKeys(Credentials.user83);
-        passwordBox.sendKeys(Credentials.password);
+        loginBox.sendKeys(ConfigurationReader.configurationReader("user83"));
+        passwordBox.sendKeys(ConfigurationReader.configurationReader("password"));
         loginBtn.click();
     }
 
     public  void  user113() {
         loginBox.clear();
-        loginBox.sendKeys(Credentials.user113);
-        passwordBox.sendKeys(Credentials.password);
+        loginBox.sendKeys(ConfigurationReader.configurationReader("user113"));
+        passwordBox.sendKeys(ConfigurationReader.configurationReader("password"));
         loginBtn.click();
     }
 

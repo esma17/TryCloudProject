@@ -38,7 +38,7 @@ public class LogIn extends Driver {
     public  WebElement privacyButton;
 //    Credentials credentials=new Credentials();
 
-    public  void loginUser23() {
+    public  void User23() {
         loginBox.clear();
         loginBox.sendKeys(ConfigurationReader.configurationReader("user23"));
         passwordBox.sendKeys(ConfigurationReader.configurationReader("password"));

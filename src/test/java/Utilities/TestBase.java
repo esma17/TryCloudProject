@@ -10,19 +10,17 @@ public class TestBase extends Driver {
 
 
 
-        public WebDriver driver;
-
         @BeforeClass
         public void setUpMethod(){
-            driver = getDriver("chrome");
-            driver.manage().window().maximize();
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            getDriver("chrome");
+            getDriver().manage().window().maximize();
+            getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         }
 
         @AfterClass
         public void tearDown(){
-            driver.close();
+            getDriver().close();
         }
 
     }

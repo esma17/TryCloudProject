@@ -8,7 +8,7 @@ import org.openqa.selenium.safari.SafariDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class Driver {
+public  class Driver {
     private static WebDriver driver;
 
     public static WebDriver getDriver(String browserName) {

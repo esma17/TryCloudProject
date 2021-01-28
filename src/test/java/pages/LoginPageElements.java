@@ -16,6 +16,7 @@ public class LoginPageElements {
     //by xpath
     public static final String privacyPolicyButton="//a[contains(@href,'/privacy-policy/') ]";
     //
+    //
 
 
 }

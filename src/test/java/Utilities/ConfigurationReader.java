@@ -21,5 +21,4 @@ public class ConfigurationReader {
     public static String configurationReader(String key){
         return properties.getProperty(key);
     }
-    //hello
 }

@@ -1,9 +1,6 @@
-package Utilities;
-
-import org.openqa.selenium.WebDriver;
+package utilities;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 

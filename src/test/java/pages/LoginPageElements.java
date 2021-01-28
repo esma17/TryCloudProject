@@ -1,4 +1,4 @@
-package Utilities;
+package pages;
 
 public class LoginPageElements {
     //username and passwords are in configuration.properties

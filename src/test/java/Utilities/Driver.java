@@ -15,7 +15,7 @@ public  class Driver {
         return setUp(browserName);
     }
     public static WebDriver getDriver(){
-return driver;
+        return driver;
     }
 
     public static WebDriver setUp(String browserName) {
@@ -40,8 +40,6 @@ return driver;
 
             default:
                 throw new RuntimeException("Invalid browser name");
-                //hello
-
 
 
         }
@@ -53,7 +51,6 @@ return driver;
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        //hello asdf
 
 
     }

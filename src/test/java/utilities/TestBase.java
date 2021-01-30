@@ -25,6 +25,7 @@ public class TestBase extends Driver {
         getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Driver.navigate("http://app.trycloud.net/index.php/login");
 
+
 //        log.login();
 
 
